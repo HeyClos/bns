@@ -11,7 +11,7 @@ export default function Home() {
         {/* <p className="fixed left-0 top-0 flex w-full justify-center border-b border-white-300 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4">
           Share your recipes!
         </p> */}
-        <div className="fixed left-0 flex h-48 w-full justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className=" left-0 flex justify-center static h-auto w-auto bg-none">
             Made with
             <span class="w-5 h-5 ml-1 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
             by
