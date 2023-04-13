@@ -20,9 +20,9 @@ export default function Home() {
       </div>
       <div className="relative flex place-items-center justify-between">
       {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"> */}
-        <a href='https://play.google.com/store/apps/details?id=com.kinpo.bns&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+        <a className="mx-5" href='https://play.google.com/store/apps/details?id=com.kinpo.bns&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
           <Image
-            className="relative mx-5"
+            className="relative "
             src="/google-play-badge.svg"
             // src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.eps'
             alt="Get it on Google Play."
@@ -31,9 +31,9 @@ export default function Home() {
             priority
           />
         </a>
-        <a href='https://apps.apple.com/us/app/beef-noodle-soup-bns/id1672179708'>
+        <a className="mx-5" href='https://apps.apple.com/us/app/beef-noodle-soup-bns/id1672179708'>
           <Image
-            className="relative mx-5"
+            className="relative "
             src="/app_store.svg"
             alt="Now available on the app store."
             width={180}
@@ -81,17 +81,6 @@ export default function Home() {
           </p>
         </a> 
       </div>
-      <footer className='flex justify-center text-sm text-white opacity-50 fixed bottom-4'>
-        © 2023 BNS. All rights reserved.
-        {/* <p>
-          Made with
-        </p>
-        <span class="w-5 h-5 ml-1 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
-        by
-        <div>
-          <a class="mx-2 text-blue-600 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
-        </div> */}
-      </footer>
     </main>
   )
 }
