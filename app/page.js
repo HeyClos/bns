@@ -36,7 +36,7 @@ export default function Home() {
             src="/app_store.svg"
             alt="Now available on the app store."
             width={180}
-            height={33}
+            height={37}
             priority
           />
         </a>
