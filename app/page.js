@@ -12,8 +12,7 @@ export default function Home() {
           Share your recipes!
         </p> */}
         <div className=" left-0 flex justify-center static h-auto w-auto bg-none">
-            Made with
-            <span class="w-5 h-5 ml-1 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
+            Made with <span class="w-5 h-5 ml-1 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
             by
             <a class="mx-2 text-blue-600 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
         </div>
