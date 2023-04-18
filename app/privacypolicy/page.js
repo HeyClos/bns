@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
                 Links to the privacy policy of third-party service providers used
                 by the app:
             </p> 
-            <ul className="underline underline-offset-2 py-3">
+            <ul className="underline underline-offset-2 pt-3">
                 <li>
                     <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a>
                 </li>
