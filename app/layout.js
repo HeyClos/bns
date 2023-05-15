@@ -8,9 +8,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <footer className='flex justify-center text-sm text-white opacity-50 bottom-8'>
-        © 2023 BNS. All rights reserved.
+      <head>
+        <title>Beef Noodle Soup</title>
+      </head>
+      <body>
+        {children}
+        <div className='flex justify-center text-sm text-white opacity-50 bottom-8'>
+          © 2023 BNS. All rights reserved.
         {/* <p>
           Made with
         </p>
@@ -19,7 +23,10 @@ export default function RootLayout({ children }) {
         <div>
           <a class="mx-2 text-blue-600 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
         </div> */}
-      </footer>
+      </div>
+      
+      
+      </body>
     </html>
   )
 }
