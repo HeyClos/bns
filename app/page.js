@@ -42,18 +42,18 @@ export default function Home() {
           />
         </a>
       </div>
-      <div className="carousel carousel-end max-w-md max-h-screen space-x-4 rounded-box my-5">
+      <div className="carousel carousel-end max-w-md max-h-screen space-x-4 rounded-box my-5 h-fit">
         <div className="carousel-item w-1/2">
-          <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" width='auto' height='auto' className="rounded-box" />
+          <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
         <div className="carousel-item w-1/2">
-          <Image src={CookingSummary} alt="Cooking Summary" width='auto' height='auto' className="rounded-box" />
+          <Image src={CookingSummary} alt="Cooking Summary" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
-          <Image src={Recipe} alt="High Level Recipe" width='auto' height='auto' className="rounded-box" />
+        <div className="carousel-item w-1/2 h-fit">
+          <Image src={Recipe} alt="High Level Recipe" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
-          <Image src={MiseEnPlace} alt="Mise En Place" width='auto' height='auto' className="rounded-box" />
+        <div className="carousel-item w-1/2 h-fit">
+          <Image src={MiseEnPlace} alt="Mise En Place" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
       </div>
 
