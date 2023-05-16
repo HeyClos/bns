@@ -8,9 +8,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>Beef Noodle Soup</title>
-      </head>
       <body>
         {children}
         <div className='flex justify-center text-sm text-white opacity-50 bottom-8'>
@@ -24,8 +21,6 @@ export default function RootLayout({ children }) {
           <a class="mx-2 text-blue-600 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
         </div> */}
       </div>
-      
-      
       </body>
     </html>
   )

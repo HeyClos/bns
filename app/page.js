@@ -4,17 +4,17 @@ import BeefNoodleSoup from '../public/BNS_BeefNoodleSoup.webp'
 import CookingSummary from '../public/BNS_CookingSummary.webp'
 import Recipe from '../public/BNS_HighLevelRecipe.webp'
 import MiseEnPlace from '../public/BNS_MiseEnPlace.webp'
+import Logo from '../public/BNSLOGO.webp'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
-      <div className="z-10 w-full max-w-5xl items-center justify-end font-mono text-sm flex mb-7">
-        <div className="left-0 flex justify-center static h-auto w-auto bg-none">
-            Made with <span className="w-5 h-5 ml-1 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
-            by
-            <a className="mx-2 text-blue-600 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
+      <div className="z-10 w-full max-w-5xl items-center justify-center flex my-7">
+        <Image src={Logo} className="w-12 h-12 ml-1 bg-cover mr-1.5 float-left rounded-sm" />
+        <div className="text-white text-2xl font-semibold left-0 flex static h-auto w-auto bg-none">
+            Beef Noodle Soup 
         </div>
       </div>
 
@@ -56,6 +56,15 @@ export default function Home() {
           <Image src={MiseEnPlace} alt="Mise En Place" width='auto' height='auto' className="rounded-box" />
         </div>
       </div>
+
+      <div className="text-white z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex mb-7">
+        <div className="left-0 flex justify-center static h-auto w-auto bg-none">
+            Made with <span className="w-5 h-5 ml-1 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
+            by
+            <a className="mx-2 text-blue-400 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
+        </div>
+      </div>
+
       <div className=" text-white mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:flex lg:justify-center lg:text-left lg:content-end">
         <a
           href=""
