@@ -44,7 +44,7 @@ export default function Home() {
       </div>
       <div className="carousel carousel-end max-w-md max-h-screen space-x-4 rounded-box my-5 h-fit">
         <div className="carousel-item w-1/2">
-          <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" width='224' height='460' className="rounded-box" placeholder="blur" />
+          <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
         <div className="carousel-item w-1/2">
           <Image src={CookingSummary} alt="Cooking Summary" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
