@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
-      <div className="z-10 w-full max-w-5xl items-center justify-center flex mt-4 mb-10">
-        <Image src={Logo} className="w-14 h-14 ml-1 bg-cover mr-1.5 float-left rounded-sm" />
+      <div className="z-10 w-full max-w-5xl items-center justify-center flex mt-3 mb-10">
+        <Image src={Logo} className="w-14 h-14 bg-cover mr-1.5 float-left rounded-full" />
         <div id="banner" className="text-white text-4xl font-extralight left-0 flex static h-auto w-auto bg-none">
             Beef Noodle Soup 
         </div>
