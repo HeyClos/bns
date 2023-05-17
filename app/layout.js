@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Beef Noodle Soup App',
-  description: 'Re-imagining how recipes should be followed on a phone.',
+  description: 'Re-imagining how recipes are followed on a phone.',
 }
 
 export default function RootLayout({ children }) {
