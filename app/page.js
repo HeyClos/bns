@@ -17,13 +17,15 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
-      <div className="z-10 w-full max-w-5xl items-center justify-center flex mt-3 mb-10">
+      <div className="z-10 w-full max-w-5xl items-center justify-center flex mt-3">
         <Image src={Logo} className="w-14 h-14 bg-cover mr-1.5 float-left rounded-full" />
         <div id="banner" className="text-white text-4xl font-extralight left-0 flex static h-auto w-auto bg-none">
-            Beef Noodle Soup 
+          Beef Noodle Soup 
         </div>
       </div>
-
+      <div className='text-white font-extralight mb-10 text-sm'>
+          Re-imagining how recipes should be followed on a phone. 
+      </div>
       <div className="relative flex place-items-center justify-between my-8">
       {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"> */}
         <a className="mx-5 inset-y-0 left-0 h-1/2" href='https://play.google.com/store/apps/details?id=com.kinpo.bns&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
@@ -67,6 +69,15 @@ export default function Home() {
         <div className="carousel-item w-1/2">
           <Image src={Notifications} alt="Notification Options" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
+        <div className="carousel-item w-1/2">
+          <Image src={Toast} alt="Toast Spices" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
+        </div>
+      </div>
+      <div className='text-white font-extralight mx-10 justify-center'>
+        Easy-to-follow, detailed instructions at every stage.
+      </div>
+      <div className='text-white font-extralight mx-10 justify-center'>
+        From sourcing the freshest ingredients to precise mise en place and the final simmer, the BNS app is your trusted companion.
       </div>
 
       <div className="text-white z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex my-4">
@@ -76,7 +87,6 @@ export default function Home() {
             <a className="mx-2 text-blue-400 hover:underline dark:text-gray-200" href="https://www.instagram.com/whatchaocooking/"> @whatchaocooking</a> 
         </div>
       </div>
-
       <div className=" text-white mb-10 grid-cols-4 flex justify-center text-left content-end my-3">
         <a
           href=""
