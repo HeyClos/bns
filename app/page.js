@@ -74,11 +74,11 @@ export default function Home() {
       <div className='text-white font-extralight mx-6 justify-center'>
         Easy-to-follow, detailed instructions at every stage.
       </div>
-      <div className='text-white font-extralight mx-6 justify-center'>
+      <div className='text-white font-extralight mx-6 justify-center mb-4'>
         From sourcing the freshest ingredients to precise mise en place and the final simmer, the BNS app is your trusted companion.
       </div>
 
-      <div className="text-white z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex my-6">
+      <div className="text-white z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex my-4">
         <div className="left-0 flex justify-center static h-auto w-auto bg-none">
             Made with <span className="w-5 h-5 ml-1 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://img.icons8.com/fluency/512/hearts.png)]"></span>
             by
