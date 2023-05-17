@@ -1,11 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import BeefNoodleSoup from '../public/bns-beefnoodlesoup.webp'
-import CookingSummary from '../public/BNS_CookingSummary.webp'
 import Recipe from '../public/bns-recipeflow.webp'
 import Ingredients from '../public/bns-ingredients.webp'
 import CookingMode from '../public/bns-cookingmode.webp'
-import MiseEnPlace from '../public/BNS_MiseEnPlace.webp'
 import Paused from '../public/bns-paused.webp'
 import Notifications from '../public/bns-notifications.webp'
 import Toast from '../public/bns-toast.webp'
@@ -23,7 +21,7 @@ export default function Home() {
           Beef Noodle Soup 
         </div>
       </div>
-      <div className='text-white font-extralight mb-10 mx-6 text-sm'>
+      <div className='text-white font-extralight mb-10 mx-4 text-sm'>
           Re-imagining how recipes are followed on a phone. 
       </div>
       <div className="relative flex place-items-center justify-between my-8">
@@ -73,10 +71,10 @@ export default function Home() {
           <Image src={Toast} alt="Toast Spices" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
       </div>
-      <div className='text-white font-extralight mx-10 justify-center'>
+      <div className='text-white font-extralight mx-7 justify-center'>
         Easy-to-follow, detailed instructions at every stage.
       </div>
-      <div className='text-white font-extralight mx-10 justify-center'>
+      <div className='text-white font-extralight mx-7 justify-center'>
         From sourcing the freshest ingredients to precise mise en place and the final simmer, the BNS app is your trusted companion.
       </div>
 
