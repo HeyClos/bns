@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import BeefNoodleSoup from '../public/BNS_BeefNoodleSoup.webp'
+import BeefNoodleSoup from '../public/bns-beefnoodlesoup.webp'
 import CookingSummary from '../public/BNS_CookingSummary.webp'
-import Recipe from '../public/BNS_HighLevelRecipe.webp'
+import Recipe from '../public/bns-recipeflow.webp'
+import Ingredients from '../public/bns-ingredients.webp'
+import CookingMode from '../public/bns-cookingmode.webp'
 import MiseEnPlace from '../public/BNS_MiseEnPlace.webp'
+import Paused from '../public/bns-paused.webp'
+import Notifications from '../public/bns-notifications.webp'
+import Toast from '../public/bns-toast.webp'
 import Logo from '../public/BNSLOGO.webp'
 import './globals.css'
 
@@ -48,13 +53,19 @@ export default function Home() {
           <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
         <div className="carousel-item w-1/2">
-          <Image src={CookingSummary} alt="Cooking Summary" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
+          <Image src={Recipe} alt="High Level Recipe" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
         <div className="carousel-item w-1/2 h-fit">
-          <Image src={Recipe} alt="High Level Recipe" width='224' height='460' className="rounded-box" placeholder="blur" />
+          <Image src={Ingredients} alt="Ingredients list" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
         <div className="carousel-item w-1/2 h-fit">
-          <Image src={MiseEnPlace} alt="Mise En Place" width='224' height='460' className="rounded-box" placeholder="blur" />
+          <Image src={CookingMode} alt="Cooking Mode" width='224' height='460' className="rounded-box" placeholder="blur" />
+        </div>
+        <div className="carousel-item w-1/2">
+          <Image src={Paused} alt="Pause Cooking" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
+        </div>
+        <div className="carousel-item w-1/2">
+          <Image src={Notifications} alt="Notification Options" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
       </div>
 
