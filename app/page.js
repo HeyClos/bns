@@ -23,7 +23,7 @@ export default function Home() {
           Beef Noodle Soup 
         </div>
       </div>
-      <div className='text-white font-extralight mb-10 text-sm'>
+      <div className='text-white font-extralight mb-10 mx-10 text-sm'>
           Re-imagining how recipes should be followed on a phone. 
       </div>
       <div className="relative flex place-items-center justify-between my-8">
