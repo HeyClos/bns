@@ -18,13 +18,13 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
       <div className="z-10 w-full max-w-5xl items-center justify-center flex mt-3">
-        <Image src={Logo} className="w-14 h-14 bg-cover mr-1.5 float-left rounded-full" />
+        <Image src={Logo} alt='Beef Noodle Soup Logo' className="w-14 h-14 bg-cover mr-1.5 float-left rounded-full" />
         <div id="banner" className="text-white text-4xl font-extralight left-0 flex static h-auto w-auto bg-none">
           Beef Noodle Soup 
         </div>
       </div>
-      <div className='text-white font-extralight mb-10 mx-10 text-sm'>
-          Re-imagining how recipes should be followed on a phone. 
+      <div className='text-white font-extralight mb-10 mx-6 text-sm'>
+          Re-imagining how recipes are followed on a phone. 
       </div>
       <div className="relative flex place-items-center justify-between my-8">
       {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]"> */}
