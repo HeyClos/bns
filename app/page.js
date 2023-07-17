@@ -49,28 +49,38 @@ export default function Home() {
         </a>
       </div>
       <div className="carousel carousel-end max-w-md max-h-screen space-x-4 rounded-box my-5 h-fit">
-        <div className="carousel-item w-1/2">
+        <div id="item1" className="carousel-item w-1/2">
           <Image src={BeefNoodleSoup} alt="Beef Noodle Soup" priority width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
-          <Image src={Recipe} alt="High Level Recipe" priority width='224' height='460' className="rounded-box h-full" placeholder="blur" />
+        <div id="item2" className="carousel-item w-1/2">
+          <Image src={Recipe} alt="High Level Recipe" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2 h-fit">
+        <div id="item3" className="carousel-item w-1/2 h-fit">
           <Image src={Ingredients} alt="Ingredients list" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2 h-fit">
+        <div id="item4" className="carousel-item w-1/2 h-fit">
           <Image src={CookingMode} alt="Cooking Mode" width='224' height='460' className="rounded-box" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
+        <div id="item5" className="carousel-item w-1/2">
           <Image src={Paused} alt="Pause Cooking" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
+        <div id="item6" className="carousel-item w-1/2">
           <Image src={Notifications} alt="Notification Options" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
-        <div className="carousel-item w-1/2">
+        <div id="item7" className="carousel-item w-1/2">
           <Image src={Toast} alt="Toast Spices" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
       </div>
+      <div className="flex justify-center w-full py-2 gap-2">
+        <a href="#item1" className="btn btn-xs">1</a> 
+        <a href="#item2" className="btn btn-xs">2</a> 
+        <a href="#item3" className="btn btn-xs">3</a> 
+        <a href="#item4" className="btn btn-xs">4</a>
+        <a href="#item5" className="btn btn-xs">5</a>
+        <a href="#item6" className="btn btn-xs">6</a>
+        <a href="#item7" className="btn btn-xs">7</a>
+      </div>
+
       <div className='text-white font-extralight mx-6 justify-center'>
         Easy-to-follow, detailed instructions at every stage.
       </div>
