@@ -71,6 +71,9 @@ export default function Home() {
           <Image src={Toast} alt="Toast Spices" width='224' height='460' className="rounded-box h-full" placeholder="blur" />
         </div>
       </div>
+      <p className="text-white font-extralight text-sm opacity-50" >
+            2-finger scroll or click below to navigate pictures
+      </p>
       <div className="flex justify-center w-full py-2 gap-2">
         <a href="#item1" className="btn btn-xs">1</a> 
         <a href="#item2" className="btn btn-xs">2</a> 
